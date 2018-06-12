@@ -16,26 +16,55 @@
 				display: flex;
 				align-items: center;
 				justify-content: center;
+				flex-direction: column;
 			}
-			img.landscape { 
+			.landscape { 
 				width: 90%;
 			}
-			img.portrait { 
-				height: 90%;
+			.portrait { 
+				height: 80%;
 			}
 			@media screen and (orientation:landscape) {
     		.hide-on-landscape {
         	display: none;
     		}
 			}
-
 			@media screen and (orientation:portrait) {
     		.hide-on-portrait {
         	display: none;
     		}
+				.info { flex-direction: column; }
+			}
+			.info {
+				display: flex;				
+				align-items: center;
+			}
+			.info p {
+				margin: 10px 10px 0px 0px;
 			}
 		</style>
-		<img class="portrait hide-on-landscape" alt="Logo" src="logo_portrait.svg"/>
-		<img class="landscape hide-on-portrait" alt="Logo" src="logo_landscape.svg"/>
+		<svg class="landscape hide-on-portrait" alt="Logo" xmlns="http://www.w3.org/2000/svg" 
+				viewBox="0 0 792 396">
+			<path d="M0 323.806s0 71.89 71.997 71.89h648.006C792 395.693 792 323.805 792 323.805V72.194S792 .305 720.003.305H71.997C0 .306 0 72.195 0 72.195zM29.978 198c0-19.84 16.104-35.944 35.944-35.944 19.842 0 35.944 16.103 35.944 35.944 0 19.842-16.103 35.944-35.944 35.944S29.978 217.842 29.978 198zm718.134-53.917c4.457 0 7.944 2.121 7.944 4.78v98.272c0 2.624-3.559 4.781-7.944 4.781h-2.121c-4.457 0-7.944-2.157-7.944-4.78v-98.273c0-2.624 3.559-4.78 7.944-4.78zM702.139 36.25v323.5H127.028V36.25z" fill="#241f1c"/>
+			<text style="line-height:125%;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start" x="217.032" y="191.132" transform="scale(.71273 1.40306)" font-weight="400" font-size="198.35" font-family="Roboto" letter-spacing="0" word-spacing="0" fill="#241f1c" stroke-width="4.958">
+			<tspan x="217.032" y="191.132" style="-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start">Appman</tspan>
+			</text>
+		</svg>
+
+		<svg class="portrait hide-on-landscape" alt="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400.64 792">
+			<path d="M327.002 795.372s71.89 0 71.89-71.997V75.369c-.002-71.997-71.89-71.997-71.89-71.997H75.39s-71.889 0-71.889 71.997v648.006c.001 71.997 71.89 71.997 71.89 71.997zm-125.806-29.978c-19.84 0-35.944-16.104-35.944-35.944 0-19.842 16.103-35.944 35.944-35.944 19.842 0 35.944 16.103 35.944 35.944s-16.102 35.944-35.944 35.944zM147.28 47.26c0-4.457 2.121-7.944 4.78-7.944h98.272c2.624 0 4.781 3.559 4.781 7.944v2.121c0 4.457-2.157 7.944-4.78 7.944h-98.273c-2.624 0-4.78-3.559-4.78-7.944zM39.446 93.233h323.5v575.111h-323.5z"/>
+			<text style="line-height:125%;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start" x="63.366" y="258.633" transform="scale(.79859 1.2522)" font-weight="400" font-size="214.047" font-family="Roboto" letter-spacing="0" word-spacing="0" stroke-width="5.351">
+			<tspan x="63.366" y="258.633" style="-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start">App</tspan>
+			</text>
+			<text style="line-height:125%" x="545.204" y="419.46" font-weight="400" font-size="61.875" font-family="sans-serif" letter-spacing="0" word-spacing="0" stroke-width="1.547"/>
+			<text style="line-height:125%;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start" x="68.792" y="426.622" transform="scale(.70103 1.42647)" font-weight="400" font-size="223.655" font-family="Roboto" letter-spacing="0" word-spacing="0" stroke-width="5.591"><tspan x="68.792" y="426.622" style="-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start">man</tspan>
+			</text>
+		</svg>
+
+		<div class="info">
+			<p>Org.nr: <b>920 898 203</b></p>	
+			<p>Tlf: <b>90 78 69 85</b></p>	
+			<p>Adresse: <b>Eikebergveien 16, 4017 Stavanger</b></p>	
+		</div>
 	</body>
 </html>

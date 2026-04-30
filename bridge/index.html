@@ -31,6 +31,22 @@
         .badges a img {
             height: 52px;
         }
+        .screenshots {
+            display: flex;
+            gap: 12px;
+            overflow-x: auto;
+            padding: 32px 4px 16px;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+        }
+        .screenshots img {
+            height: 480px;
+            width: auto;
+            border-radius: 24px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+            scroll-snap-align: start;
+            flex-shrink: 0;
+        }
         footer {
             margin-top: 64px;
             font-size: 0.85rem;
@@ -56,6 +72,17 @@
         <a href="https://play.google.com/store/apps/details?id=no.appman.brisco" target="_blank" rel="noopener">
             <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" />
         </a>
+    </div>
+
+    <div class="screenshots">
+        <img src="screenshots/7.png" alt="Home screen" />
+        <img src="screenshots/2.png" alt="Score calculator" />
+        <img src="screenshots/5.png" alt="Rubber bridge score sheet" />
+        <img src="screenshots/6.png" alt="Chicago score sheet" />
+        <img src="screenshots/1.png" alt="Teams score view" />
+        <img src="screenshots/3.png" alt="Score sheet list" />
+        <img src="screenshots/4.png" alt="Auction entry" />
+        <img src="screenshots/8.png" alt="Enter deal" />
     </div>
 
     <footer>

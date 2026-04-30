@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit -m ':*)",
+      "Bash(git push:*)",
+      "Bash(cp ~/Downloads/iphone/IMG_6504.PNG /Users/tompi/src/appman/bridge/screenshots/1.png)",
+      "Bash(cp ~/Downloads/iphone/IMG_6505.PNG /Users/tompi/src/appman/bridge/screenshots/2.png)",
+      "Bash(cp ~/Downloads/iphone/IMG_6506.PNG /Users/tompi/src/appman/bridge/screenshots/3.png)",
+      "Bash(cp ~/Downloads/iphone/IMG_6507.PNG /Users/tompi/src/appman/bridge/screenshots/4.png)",
+      "Bash(cp ~/Downloads/iphone/IMG_6508.PNG /Users/tompi/src/appman/bridge/screenshots/5.png)",
+      "Bash(cp /Users/tompi/src/BridgeScoringHelper/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png /Users/tompi/src/appman/bridge/favicon.png)",
+      "Bash(sips -z 32 32 /Users/tompi/src/appman/bridge/favicon.png --out /Users/tompi/src/appman/bridge/favicon-32.png)",
+      "Bash(sips -z 180 180 /Users/tompi/src/BridgeScoringHelper/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png --out /Users/tompi/src/appman/bridge/apple-touch-icon.png)"
+    ]
+  }
+}
